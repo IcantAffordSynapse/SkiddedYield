@@ -5,7 +5,7 @@ local blurr = {}
 function blurr:blur(element)
     local RunService = game:GetService('RunService')
     local camera = workspace.CurrentCamera
-    local MTREL = "Glass"
+    local MTREL = Enum.Material.Neon
     local binds = {}
     local root = Instance.new('Folder', camera)
     root.Name = 'BlurSnox'
